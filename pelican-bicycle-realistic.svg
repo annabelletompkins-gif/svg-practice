@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <title>Pelican Riding a Bicycle (Photo-Realistic)</title>
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#87CEEB"/>
+      <stop offset="1" stop-color="#1E90FF"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#708090"/>
+      <stop offset="1" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="bikeFrameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#555555"/>
+      <stop offset="1" stop-color="#222222"/>
+    </linearGradient>
+    <linearGradient id="pelGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D3D3D3"/>
+      <stop offset="0.5" stop-color="#AAAAAA"/>
+      <stop offset="1" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="beakGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB6C1"/>
+      <stop offset="1" stop-color="#FFA07A"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="900" height="600" fill="url(#skyGrad)"/>
+  <path d="M0 480 L900 480 L900 600 L0 600 Z" fill="url(#groundGrad)"/>
+  <!-- bicycle frame -->
+  <g filter="url(#shadow)">
+    <path d="M200 380 Q300 300 420 380 L550 380 Q600 360 620 300 Q650 260 600 220 L500 220 Q440 260 380 300 Z" fill="url(#bikeFrameGrad)"/>
+    <!-- wheel rims -->
+    <circle cx="260" cy="380" r="70" fill="none" stroke="#708090" stroke-width="8"/>
+    <circle cx="680" cy="380" r="70" fill="none" stroke="#708090" stroke-width="8"/>
+    <!-- wheel spokes -->
+    <g stroke="#708090" stroke-width="3" fill="none">
+      <line x1="260" y1="380" x2="260" y2="310"/>
+      <line x1="260" y1="380" x2="260" y2="450"/>
+      <line x1="680" y1="380" x2="680" y2="310"/>
+      <line x1="680" y1="380" x2="680" y2="450"/>
+      <line x1="260" y1="380" x2="330" y2="380"/>
+      <line x1="680" y1="380" x2="610" y2="380"/>
+    </g>
+    <circle cx="260" cy="380" r="15" fill="#708090"/>
+    <circle cx="680" cy="380" r="15" fill="#708090"/>
+    <rect x="440" y="445" width="30" height="12" rx="4" fill="#708090"/>
+    <line x1="450" y1="380" x2="490" y2="430" stroke="#708090" stroke-width="6" stroke-linecap="round"/>
+    <rect x="465" y="455" width="20" height="8" rx="3" fill="#708090" transform="rotate(-30 480 460)"/>
+  </g>
+  <!-- pelican -->
+  <g>
+    <!-- tail -->
+    <path d="M330 300 Q290 285 270 300 Q295 310 325 320 Z" fill="url(#pelGrad)"/>
+    <!-- body -->
+    <ellipse cx="400" cy="260" rx="80" ry="50" fill="url(#pelGrad)" stroke="#708090" stroke-width="2"/>
+    <!-- wing -->
+    <path d="M370 250 Q430 220 480 260 Q430 270 370 260 Z" fill="url(#pelGrad)" stroke="#708090" stroke-width="2"/>
+    <!-- neck -->
+    <path d="M460 230 Q500 190 495 150 Q500 130 510 155 L515 175 Q515 210 500 250 Z" fill="url(#pelGrad)" stroke="#708090" stroke-width="2"/>
+    <!-- head -->
+    <ellipse cx="530" cy="140" rx="35" ry="28" fill="url(#pelGrad)" stroke="#708090" stroke-width="2"/>
+    <!-- beak -->
+    <path d="M560 130 L605 145 Q605 170 560 165 Z" fill="url(#beakGrad)"/>
+    <!-- pouch -->
+    <path d="M560 155 Q590 180 560 170 Q555 178 560 155 Z" fill="#FFF8DC"/>
+    <!-- eye -->
+    <circle cx="545" cy="135" r="5" fill="#2F4F4F"/>
+    <!-- legs pedaling -->
+    <path d="M430 310 Q470 360 500 430" fill="none" stroke="#FF8C00" stroke-width="8" stroke-linecap="round"/>
+    <path d="M420 310 Q440 340 410 380" fill="none" stroke="#FF8C00" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="505" cy="436" rx="16" ry="8" fill="#FF8C00"/>
+  </g>
+</svg>
