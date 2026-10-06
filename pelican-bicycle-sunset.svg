@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Pelican riding a bicycle at sunset</title>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1055"/>
+      <stop offset="0.45" stop-color="#7b2ff7"/>
+      <stop offset="0.75" stop-color="#f107a3"/>
+      <stop offset="1" stop-color="#ff7a18"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe14d"/>
+      <stop offset="1" stop-color="#ff3d5a"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d1e6d"/>
+      <stop offset="1" stop-color="#2a1452"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d0f3a"/>
+      <stop offset="1" stop-color="#140a2b"/>
+    </linearGradient>
+    <clipPath id="sunClip"><circle cx="410" cy="300" r="175"/></clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sunset)"/>
+
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="90" cy="60" r="2.5"/>
+    <circle cx="160" cy="110" r="2"/>
+    <circle cx="240" cy="50" r="2"/>
+    <circle cx="700" cy="55" r="2.5"/>
+    <circle cx="760" cy="120" r="2"/>
+    <circle cx="640" cy="95" r="1.8"/>
+    <circle cx="540" cy="40" r="2"/>
+    <circle cx="60" cy="150" r="1.8"/>
+    <circle cx="730" cy="180" r="1.5"/>
+  </g>
+
+  <circle cx="410" cy="300" r="175" fill="url(#sunGrad)"/>
+  <g clip-path="url(#sunClip)" fill="#140a2b" opacity="0.85">
+    <rect x="230" y="335" width="360" height="9"/>
+    <rect x="230" y="357" width="360" height="13"/>
+    <rect x="230" y="383" width="360" height="17"/>
+    <rect x="230" y="413" width="360" height="22"/>
+    <rect x="230" y="447" width="360" height="28"/>
+  </g>
+
+  <path d="M0 430 Q140 370 300 415 Q450 455 600 405 Q700 372 800 410 L800 600 L0 600 Z" fill="url(#hill1)"/>
+  <path d="M0 485 Q160 440 340 480 Q520 520 660 470 Q740 445 800 475 L800 600 L0 600 Z" fill="url(#hill2)"/>
+
+  <rect y="510" width="800" height="90" fill="#0d0620"/>
+  <g stroke="#ffe14d" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <line x1="30" y1="555" x2="90" y2="555"/>
+    <line x1="150" y1="555" x2="210" y2="555"/>
+    <line x1="590" y1="555" x2="650" y2="555"/>
+    <line x1="710" y1="555" x2="770" y2="555"/>
+  </g>
+
+  <g stroke="#0d0620" stroke-width="5" stroke-linecap="round" opacity="0.55">
+    <line x1="45" y1="360" x2="115" y2="360"/>
+    <line x1="30" y1="405" x2="110" y2="405"/>
+    <line x1="55" y1="450" x2="120" y2="450"/>
+  </g>
+
+  <g>
+    <circle cx="250" cy="430" r="80" fill="none" stroke="#0d0620" stroke-width="12"/>
+    <circle cx="250" cy="430" r="66" fill="none" stroke="#ffe14d" stroke-width="3"/>
+    <path d="M250 364 L250 496 M184 430 L316 430 M203 383 L297 477 M297 383 L203 477" stroke="#ffe14d" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="250" cy="430" r="8" fill="#ffe14d"/>
+  </g>
+  <g>
+    <circle cx="550" cy="430" r="80" fill="none" stroke="#0d0620" stroke-width="12"/>
+    <circle cx="550" cy="430" r="66" fill="none" stroke="#ffe14d" stroke-width="3"/>
+    <path d="M550 364 L550 496 M484 430 L616 430 M503 383 L597 477 M597 383 L503 477" stroke="#ffe14d" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="550" cy="430" r="8" fill="#ffe14d"/>
+  </g>
+
+  <g stroke="#0d0620" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M250 430 L390 440"/>
+    <path d="M250 430 L340 310"/>
+    <path d="M340 310 L390 440"/>
+    <path d="M390 440 L525 330"/>
+    <path d="M340 310 L510 290"/>
+    <path d="M510 290 L525 330"/>
+    <path d="M525 330 L550 430"/>
+  </g>
+
+  <path d="M390 422 L250 428 M390 458 L250 432" stroke="#ffe14d" stroke-width="3" fill="none"/>
+  <circle cx="390" cy="440" r="19" fill="none" stroke="#ffe14d" stroke-width="4"/>
+
+  <line x1="340" y1="310" x2="342" y2="326" stroke="#0d0620" stroke-width="7" stroke-linecap="round"/>
+  <path d="M311 305 Q342 293 369 305 L363 314 Q340 304 315 314 Z" fill="#0d0620"/>
+
+  <line x1="510" y1="290" x2="506" y2="262" stroke="#0d0620" stroke-width="7" stroke-linecap="round"/>
+  <path d="M506 262 Q502 246 518 244 L550 246" stroke="#0d0620" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <line x1="550" y1="246" x2="571" y2="248" stroke="#ffe14d" stroke-width="11" stroke-linecap="round"/>
+
+  <path d="M262 218 L180 186 L197 201 L170 211 L205 226 L258 238 Z" fill="#170d2e" stroke="#170d2e" stroke-width="3" stroke-linejoin="round"/>
+
+  <ellipse cx="335" cy="245" rx="95" ry="58" transform="rotate(-8 335 245)" fill="#fff6e8" stroke="#170d2e" stroke-width="4"/>
+
+  <path d="M398 208 C418 186 436 172 452 156 L484 168 C468 188 450 206 432 222 Z" fill="#fff6e8" stroke="#170d2e" stroke-width="4" stroke-linejoin="round"/>
+
+  <circle cx="466" cy="150" r="25" fill="#fff6e8" stroke="#170d2e" stroke-width="4"/>
+
+  <path d="M486 144 L624 164 Q590 207 543 205 Q506 202 488 160 Z" fill="#ffb01f" stroke="#170d2e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M489 158 Q520 200 545 203 Q586 204 620 166 L622 164 L488 160 Z" fill="#ff8a3d" stroke="none"/>
+
+  <path d="M441 141 Q463 113 494 135 L490 143 Q464 123 445 147 Z" fill="#170d2e"/>
+  <circle cx="470" cy="146" r="5" fill="#170d2e"/>
+  <circle cx="471.5" cy="144.5" r="1.6" fill="#ffffff"/>
+
+  <path d="M358 214 C428 198 500 218 548 242 L544 254 C494 236 424 220 360 232 Z" fill="#efe3d4" stroke="#170d2e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M382 222 C432 210 492 224 536 240" stroke="#170d2e" stroke-width="2.5" fill="none"/>
+
+  <path d="M346 290 L416 406" stroke="#ffb01f" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M366 294 L358 460" stroke="#ffb01f" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <path d="M390 440 L420 412 M390 440 L360 468" stroke="#0d0620" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <rect x="407" y="405" width="28" height="9" rx="4" fill="#ffe14d"/>
+  <rect x="345" y="463" width="28" height="9" rx="4" fill="#ffe14d"/>
+
+  <path d="M397 401 L441 397 L435 416 L401 420 Z" fill="#ffb01f" stroke="#170d2e" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M341 459 L379 455 L373 474 L345 478 Z" fill="#ffb01f" stroke="#170d2e" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

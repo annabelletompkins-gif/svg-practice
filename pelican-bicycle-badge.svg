@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <title>Pelican on a bicycle - circular badge</title>
+
+  <circle cx="300" cy="300" r="284" fill="#1f2a3d"/>
+  <circle cx="300" cy="300" r="272" fill="#fdf6e3"/>
+
+  <g stroke="#1f2a3d" stroke-width="4" stroke-linecap="round">
+    <line x1="78" y1="340" x2="116" y2="340"/>
+    <line x1="64" y1="376" x2="104" y2="376"/>
+    <line x1="70" y1="430" x2="530" y2="430"/>
+  </g>
+
+  <g>
+    <circle cx="185" cy="360" r="70" fill="none" stroke="#1f2a3d" stroke-width="6"/>
+    <circle cx="185" cy="360" r="62" fill="none" stroke="#9aa3b0" stroke-width="2"/>
+    <path d="M185 298 L185 422 M123 360 L247 360 M139 314 L231 406 M231 314 L139 406" stroke="#9aa3b0" stroke-width="2"/>
+    <circle cx="185" cy="360" r="5" fill="#1f2a3d"/>
+  </g>
+
+  <g>
+    <circle cx="415" cy="360" r="70" fill="none" stroke="#1f2a3d" stroke-width="6"/>
+    <circle cx="415" cy="360" r="62" fill="none" stroke="#9aa3b0" stroke-width="2"/>
+    <path d="M415 298 L415 422 M353 360 L477 360 M369 314 L461 406 M461 314 L369 406" stroke="#9aa3b0" stroke-width="2"/>
+    <circle cx="415" cy="360" r="5" fill="#1f2a3d"/>
+  </g>
+
+  <g stroke="#1f2a3d" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M185 360 L295 368"/>
+    <path d="M185 360 L255 265"/>
+    <path d="M255 265 L295 368"/>
+    <path d="M295 368 L395 280"/>
+    <path d="M255 265 L380 250"/>
+    <path d="M380 250 L395 280"/>
+    <path d="M395 280 L415 360"/>
+  </g>
+
+  <circle cx="295" cy="368" r="16" fill="none" stroke="#1f2a3d" stroke-width="4"/>
+  <circle cx="295" cy="368" r="5" fill="#1f2a3d"/>
+
+  <line x1="255" y1="265" x2="256" y2="277" stroke="#1f2a3d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M232 260 Q255 249 278 260 L273 267 Q255 258 236 267 Z" fill="#1f2a3d"/>
+
+  <line x1="380" y1="250" x2="376" y2="228" stroke="#1f2a3d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M376 228 Q372 213 386 211 L414 213" stroke="#1f2a3d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <line x1="414" y1="213" x2="433" y2="215" stroke="#1f2a3d" stroke-width="9" stroke-linecap="round"/>
+
+  <path d="M190 190 L128 166 L142 178 L120 186 L146 198 L186 208 Z" fill="#ffffff" stroke="#1f2a3d" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <ellipse cx="250" cy="215" rx="78" ry="48" transform="rotate(-8 250 215)" fill="#ffffff" stroke="#1f2a3d" stroke-width="2.5"/>
+
+  <path d="M300 182 C318 162 332 150 344 138 L372 148 C358 166 342 182 328 196 Z" fill="#ffffff" stroke="#1f2a3d" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <circle cx="356" cy="132" r="21" fill="#ffffff" stroke="#1f2a3d" stroke-width="2.5"/>
+
+  <path d="M374 126 L494 144 L489 152 L376 138 Z" fill="#ff6b57" stroke="#1f2a3d" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M376 138 L489 152 Q468 184 426 182 Q396 179 376 138 Z" fill="#ff9c8a" stroke="#1f2a3d" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <circle cx="360" cy="128" r="4" fill="#1f2a3d"/>
+
+  <path d="M268 190 C328 176 386 192 424 212 L421 222 C382 208 326 194 270 204 Z" fill="#eceadf" stroke="#1f2a3d" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M288 196 C330 186 380 198 414 210" stroke="#1f2a3d" stroke-width="1.5" fill="none"/>
+
+  <path d="M262 256 L320 340" stroke="#ff6b57" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M278 255 L270 388" stroke="#ff6b57" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <path d="M295 368 L318 345 M295 368 L272 391" stroke="#1f2a3d" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <rect x="307" y="340" width="22" height="7" rx="3" fill="#1f2a3d"/>
+  <rect x="262" y="388" width="22" height="7" rx="3" fill="#1f2a3d"/>
+
+  <path d="M302 332 L340 330 L335 347 L306 350 Z" fill="#ff6b57" stroke="#1f2a3d" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M254 380 L290 377 L285 394 L258 397 Z" fill="#ff6b57" stroke="#1f2a3d" stroke-width="2" stroke-linejoin="round"/>
+</svg>
